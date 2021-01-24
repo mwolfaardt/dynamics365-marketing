@@ -1,5 +1,4 @@
-# dynamics365-marketing
-Dynamics 365 for Marketing Components
+# Dynamics 365 for Marketing Components
 
 # Dynamics 365 Marketing Customer Channel
 
