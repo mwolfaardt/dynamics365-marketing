@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Custom Channel", "Custom Channel", "{A6113203-B061-4652-BE61-14BB681C8E64}"
+	ProjectSection(SolutionItems) = preProject
+		cod_AppstoreCustomerJourneyDesignerTileConfig.css = cod_AppstoreCustomerJourneyDesignerTileConfig.css
+		cod_appstoreCustomerJourneyDesignerTileConfig.xml = cod_appstoreCustomerJourneyDesignerTileConfig.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66E9073D-8CFB-4D10-852F-A9C0F6ED9162}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- file name should only contain alpha-numeric characters and underscore -->
+<!-- format: <fileNamePrefix>CustomerJourneyDesignerTileConfig.xml> -->
+<LibraryTile>
+  <!-- mandatory -->
+  <!-- icon: CSS class defining your tile icon-->
+  <!-- fontFamily: CSS class defining font-family for your icon-->
+  <!-- cssFileName: your CSS file name in CRM-->
+  <Definition icon="cod_AppStoreTitle" fontFamily="cod_AppStoreTitleSymbolFont" cssFileName="cod_AppstoreCustomerJourneyDesignerTileConfig.css" />
+  <!-- mandatory -->
+  <ChannelProperties>
+    <!-- mandatory -->
+    <EntityType>cod_marketplacetemplate</EntityType>
+    <EntitySetName>cod_marketplacetemplates</EntitySetName>
+    <TitleFieldName>cod_name</TitleFieldName>
+    <ComplianceField>cod_donotmarketplace</ComplianceField>
+    <!-- optional -->
+    <!-- Lookup view id for your entity-->
+    <LookupViewId>33BDD9CE-E17E-4437-B0B1-4661E8C8A553</LookupViewId>
+      <!--Quick view form id for your entity -->
+    <QuickViewFormId>CBE4E13B-8723-48B1-91E7-23CCCE0ED47C</QuickViewFormId>
+  </ChannelProperties>
+  <!-- optional -->
+  <ResponseTypes>
+    <ResponseType id="sent">
+      <Labels>
+        <!-- Labels should always have a Label for 1033 -->
+        <Label locId="1033">Sent</Label>
+        <Label locId="1031">[Sent]</Label>
+      </Labels>
+    </ResponseType>
+    <ResponseType id="delivered">
+      <Labels>
+        <!-- Labels should always have a Label for 1033 -->
+        <Label locId="1033">Delivered</Label>
+        <Label locId="1031">[Delivered]</Label>
+      </Labels>
+    </ResponseType>
+    <ResponseType id="keyword" custom="True">
+      <!-- there should be only one response type with attribute custom=true -->
+      <Labels>
+        <!-- Labels should always have a Label for 1033 -->
+        <Label locId="1033">Keyword match</Label>
+        <Label locId="1031">[Keyword match]</Label>
+      </Labels>
+    </ResponseType>
+  </ResponseTypes>
+  <!-- mandatory -->
+  <Labels>
+    <!-- Labels should always have a Label for 1033 -->
+    <Label locId="1033">Appstore Link Provider</Label>
+    <Label locId="1031">[Appstore Link Provider]</Label>
+  </Labels>
+  <!-- mandatory -->
+  <Tooltips>
+    <!-- Tooltips should always have a tooltip for 1033 -->
+    <!-- mandatory -->
+    <Tooltip locId="1033">Send Appstore link</Tooltip>
+    <!-- optional -->
+    <Tooltip locId="1031">[Send Appstore link]</Tooltip>
+  </Tooltips>
+</LibraryTile>
